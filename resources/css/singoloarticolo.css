@@ -1,0 +1,191 @@
+/* single product */
+/* 
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+select {
+    display: block ; 
+    padding : 5px 10px ; 
+    margin-bottom: 10px ; 
+}
+
+input {
+    width : 50px;
+    height : 47px ; 
+    padding-left: 16px ; 
+    font-size : 16px ; 
+    margin-right : 10px ; 
+}
+
+.single-pro-details span {
+    line-height : 25px ; 
+}
+
+.single-pro-details h4 {
+    padding : 40px 0 20px 0 ; 
+}
+
+button.normal {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color : #fff ; 
+    background-color:#344E41 ; 
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+@media(max-width: 575px){
+    
+    #prodetails {
+        display: flex ; 
+        flex-direction: column;
+        
+    }
+
+    #prodetails .single-pro-image {
+        width:100% ; 
+        margin-right: 0px ;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+      
+    }
+
+} */
+
+/* Single Product */
+
+.section-p1 {
+    
+    padding: 20px 50px;
+} 
+.single{
+    width: 60vw;
+    
+    display: flex ;
+    
+}
+
+
+#prodetails{
+    
+    display: flex;
+    justify-content: center;
+}
+ #prodetails .single-pro-image {
+    width: 70% ; 
+    /* height: 20%; */
+    margin-right: 50px ;
+} 
+
+.carousel-item{
+    height:100%;
+}
+
+.small-img-group{
+    display : flex ; 
+    
+   
+}
+
+.bigimg{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+.small-img-col{
+    
+    flex-basis : 24% ; 
+    cursor : pointer ;
+    margin-top: 5px;
+    height: 125px;
+   
+}
+
+.small-img-col:nth-child(1),
+.small-img-col:nth-child(2),
+.small-img-col:nth-child(3){
+    margin-right: 1%;
+}
+
+#prodetails .single-pro-details {
+    width : 100% ;
+    padding-top : 30px ;  
+}
+
+#prodetails .single-pro-details h4 {
+    padding : 40px 0 20px 0 ; 
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select {
+    display: block ; 
+    padding : 5px 10px ; 
+    margin-bottom: 10px ; 
+}
+
+#prodetails .single-pro-details input {
+    width : 50px;
+    height : 47px ; 
+    padding-left: 16px ; 
+    font-size : 16px ; 
+    margin-right : 10px ; 
+}
+
+#prodetails .single-pro-details button {
+    background-color: #088178 ; 
+    color : #fff ; 
+}
+
+#prodetails .single-pro-details input:focus{
+
+    outline : none ; 
+
+}
+
+#prodetails .single-pro-details span {
+    line-height : 25px ; 
+}
+ 
+
+   
+  @media(max-width: 575px){
+    #prodetails {
+        display: flex ; 
+        flex-direction: column;
+        
+    }
+
+    #prodetails .single-pro-image {
+        width:100% ; 
+        margin-right: 0px ;
+       
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+      
+    }
+  }

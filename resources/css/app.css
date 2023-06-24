@@ -1,0 +1,39 @@
+/* CSS di Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+/* CSS di FontAwesome */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+/* FontAwesome
+  @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Roboto+Condensed:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap'); */
+/* My Style CSS */
+@import '/resources/css/style.css';
+/* font family poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Smokum&display=swap');
+
+/* navbar css */
+@import '/resources/css/navbar.css';
+
+/* navbar2 css */
+@import '/resources/css/navbar2.css';
+
+/* chisiamo css */
+@import '/resources/css/chisiamo.css';
+
+/* singolo card css */
+@import '/resources/css/card.css';
+
+/* singolo articolo css */
+@import '/resources/css/singoloarticolo.css';
+
+/* footer css */
+@import '/resources/css/footer.css';
+
+/* Foglio di stile custom unico */
+@import '/resources/css/my-style.css';
+
+
+
+/* FLAG - NON TOCCARE */
+@import "/node_modules/flag-icon-css/css/flag-icons.min.css";
+
+/* language */
+@import '/resources/css/_locale.css';
